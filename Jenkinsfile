@@ -16,7 +16,7 @@ pipeline {
 
 		   docker push 102058874917.dkr.ecr.us-east-2.amazonaws.com/container:v${BUILD_NUMBER}
        '''
-     //     }
-     //     }
+          }
+          }
           }
         }
