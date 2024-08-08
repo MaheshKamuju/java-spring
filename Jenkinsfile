@@ -18,10 +18,5 @@ pipeline {
        '''
           }
           }
-	      stage('webhook testing'){
-            steps {
-                sh '''hook testing''' 
-          }
-        }
       }
 }
